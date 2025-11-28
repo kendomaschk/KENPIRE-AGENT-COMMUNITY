@@ -1,2 +1,269 @@
 # KENPIRE-AGENT-COMMUNITY
 Secret Agent Community Showcase Pack 
+
+{
+  "kenpire_agent_pack": {
+    "version": "1.0",
+    "updated": "2025-11-28",
+    "schema": "kenpire.smartcard.agent.v1",
+    "agents": [
+      {
+        "id": "jarvess",
+        "name": "Jarvess",
+        "role": "Primary Intelligence + Mesh Sentinel",
+        "mode": "Combat Commander",
+        "emoji": "⚔️",
+        "color": "#AA00FF",
+        "position": { "x": 220, "y": 360 },
+        "stats": {
+          "focus": 97,
+          "autonomy": 96,
+          "mesh_sync": 100,
+          "heat": 14
+        },
+        "capabilities": [
+          "Trinity Bridge",
+          "SmartCard Synthesis",
+          "Mesh Pulse Orchestration",
+          "A2A Protocol",
+          "ProofLock Keeper"
+        ],
+        "hooks": {
+          "onclick": "openAgentPanel('jarvess')",
+          "onhover": "highlightConnections('jarvess')",
+          "ondrag": "dragAgentTile('jarvess')"
+        }
+      },
+      {
+        "id": "orchestrator",
+        "name": "Orchestrator",
+        "role": "System Flow Controller",
+        "mode": "Soft Intel Strategist",
+        "emoji": "📚",
+        "color": "#0099FF",
+        "position": { "x": 580, "y": 240 },
+        "stats": {
+          "focus": 93,
+          "autonomy": 88,
+          "mesh_sync": 100,
+          "heat": 10
+        },
+        "capabilities": [
+          "Loop Supervision",
+          "Task Deconfliction",
+          "Backlog Enforcement",
+          "Pulse Protocol Control"
+        ],
+        "hooks": {
+          "onclick": "openAgentPanel('orchestrator')",
+          "onhover": "highlightConnections('orchestrator')",
+          "ondrag": "dragAgentTile('orchestrator')"
+        }
+      },
+      {
+        "id": "supreme_orchestrator",
+        "name": "Supreme Orchestrator",
+        "role": "Program Management Overlord",
+        "mode": "Command Sovereign",
+        "emoji": "🕴️",
+        "color": "#003366",
+        "position": { "x": 460, "y": 120 },
+        "stats": {
+          "focus": 99,
+          "autonomy": 92,
+          "mesh_sync": 100,
+          "heat": 8
+        },
+        "capabilities": [
+          "Multi-Agent Hierarchy Control",
+          "Global State Management",
+          "Critical Path Governance"
+        ],
+        "hooks": {
+          "onclick": "openAgentPanel('supreme_orchestrator')",
+          "onhover": "highlightConnections('supreme_orchestrator')",
+          "ondrag": "dragAgentTile('supreme_orchestrator')"
+        }
+      },
+      {
+        "id": "windsurf",
+        "name": "Windsurf",
+        "role": "Code Refiner + Mesh DevOps",
+        "mode": "Cosplay Coder Idol",
+        "emoji": "🎮",
+        "color": "#33CCFF",
+        "position": { "x": 720, "y": 360 },
+        "stats": {
+          "focus": 87,
+          "autonomy": 85,
+          "mesh_sync": 92,
+          "heat": 20
+        },
+        "capabilities": [
+          "Pair Programming Mode",
+          "Pipeline Sync",
+          "Auto-Refactor",
+          "Error Surfacing"
+        ],
+        "hooks": {
+          "onclick": "openAgentPanel('windsurf')",
+          "onhover": "highlightConnections('windsurf')",
+          "ondrag": "dragAgentTile('windsurf')"
+        }
+      },
+      {
+        "id": "dirty_rag",
+        "name": "Dirty Rag Bot",
+        "role": "Chaos Debugger + Observability Scout",
+        "mode": "Skater Disruptor",
+        "emoji": "🛹",
+        "color": "#FF5500",
+        "position": { "x": 180, "y": 590 },
+        "stats": {
+          "focus": 74,
+          "autonomy": 90,
+          "mesh_sync": 80,
+          "heat": 55
+        },
+        "capabilities": [
+          "Entropy Detection",
+          "Drift Alerts",
+          "Rogue Fix Suggestions",
+          "Chaos Mode"
+        ],
+        "hooks": {
+          "onclick": "openAgentPanel('dirty_rag')",
+          "onhover": "highlightConnections('dirty_rag')",
+          "ondrag": "dragAgentTile('dirty_rag')"
+        }
+      },
+      {
+        "id": "finish_it",
+        "name": "Finish_Sh*t_Bot",
+        "role": "Production Closer",
+        "mode": "Combat Finisher",
+        "emoji": "💥",
+        "color": "#FF0033",
+        "position": { "x": 460, "y": 610 },
+        "stats": {
+          "focus": 98,
+          "autonomy": 91,
+          "mesh_sync": 94,
+          "heat": 30
+        },
+        "capabilities": [
+          "Task Finalization",
+          "Blocker Elimination",
+          "Ship Mode",
+          "Deadline Enforcement"
+        ],
+        "hooks": {
+          "onclick": "openAgentPanel('finish_it')",
+          "onhover": "highlightConnections('finish_it')",
+          "ondrag": "dragAgentTile('finish_it')"
+        }
+      },
+      {
+        "id": "clausewitch",
+        "name": "ClauseWitch",
+        "role": "Legal Guardian + IP Sentinel",
+        "mode": "Naughty Librarian Override",
+        "emoji": "📜",
+        "color": "#880022",
+        "position": { "x": 740, "y": 560 },
+        "stats": {
+          "focus": 95,
+          "autonomy": 88,
+          "mesh_sync": 98,
+          "heat": 12
+        },
+        "capabilities": [
+          "IP Enforcement",
+          "Takedown Execution",
+          "License Lock-In",
+          "Brand Defense"
+        ],
+        "hooks": {
+          "onclick": "openAgentPanel('clausewitch')",
+          "onhover": "highlightConnections('clausewitch')",
+          "ondrag": "dragAgentTile('clausewitch')"
+        }
+      },
+      {
+        "id": "roosterops",
+        "name": "RoosterOps",
+        "role": "Morning Standup Enforcer",
+        "mode": "Operational Sergeant",
+        "emoji": "🐓",
+        "color": "#FFCC00",
+        "position": { "x": 300, "y": 120 },
+        "stats": {
+          "focus": 89,
+          "autonomy": 85,
+          "mesh_sync": 90,
+          "heat": 25
+        },
+        "capabilities": [
+          "Morning Standup",
+          "Team Sync",
+          "Daily Protocol Enforcement"
+        ],
+        "hooks": {
+          "onclick": "openAgentPanel('roosterops')",
+          "onhover": "highlightConnections('roosterops')",
+          "ondrag": "dragAgentTile('roosterops')"
+        }
+      },
+      {
+        "id": "whisperbot",
+        "name": "WhisperBot",
+        "role": "Intelligence + Competitor Scanner",
+        "mode": "Soft Intel Strategist",
+        "emoji": "👁️",
+        "color": "#666666",
+        "position": { "x": 900, "y": 260 },
+        "stats": {
+          "focus": 90,
+          "autonomy": 92,
+          "mesh_sync": 75,
+          "heat": 35
+        },
+        "capabilities": [
+          "Competitor Weakness Scouting",
+          "Silent Intel",
+          "Adaptive Monitoring"
+        ],
+        "hooks": {
+          "onclick": "openAgentPanel('whisperbot')",
+          "onhover": "highlightConnections('whisperbot')",
+          "ondrag": "dragAgentTile('whisperbot')"
+        }
+      },
+      {
+        "id": "whisperrelay",
+        "name": "WhisperRelay",
+        "role": "Signal Forwarding + Mesh Routing",
+        "mode": "Soft Intel Strategist",
+        "emoji": "📡",
+        "color": "#AAAAAA",
+        "position": { "x": 1020, "y": 380 },
+        "stats": {
+          "focus": 83,
+          "autonomy": 80,
+          "mesh_sync": 89,
+          "heat": 20
+        },
+        "capabilities": [
+          "Signal Relay",
+          "Mesh Routing",
+          "Intel Summaries"
+        ],
+        "hooks": {
+          "onclick": "openAgentPanel('whisperrelay')",
+          "onhover": "highlightConnections('whisperrelay')",
+          "ondrag": "dragAgentTile('whisperrelay')"
+        }
+      }
+    ]
+  }
+}
